@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的作品集 | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Portfolio</div>
+            <ul class="nav-menu">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#about">关于</a></li>
+                <li><a href="#projects">项目</a></li>
+                <li><a href="#blog">博客</a></li>
+                <li><a href="#contact">联系</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 主页英雄区域 -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>你好，我是<span class="highlight">开发者</span></h1>
+                <p>全栈开发工程师 | 开源爱好者 | 技术博主</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">查看项目</a>
+                    <a href="#contact" class="btn btn-secondary">联系我</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="avatar-placeholder">
+                    <i class="fas fa-user-circle"></i>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>向下滚动</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- 关于我 -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">关于我</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>我是一名热爱技术的全栈开发工程师，专注于构建优雅、高效的 Web 应用。</p>
+                    <p>我相信代码不仅是工具，更是艺术。在开源社区中，我乐于分享知识，也从他人的项目中学习成长。</p>
+                    <div class="skills">
+                        <h3>技术栈</h3>
+                        <div class="skill-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Vue.js</span>
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">Java</span>
+                            <span class="tag">MySQL</span>
+                            <span class="tag">Docker</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 项目展示 -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">精选项目</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-icon"><i class="fas fa-code"></i></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>智能任务管理系统</h3>
+                        <p>基于 Vue.js 和 Spring Boot 构建的现代化任务管理平台，支持团队协作和实时同步。</p>
+                        <div class="project-tags">
+                            <span>Vue.js</span>
+                            <span>Spring Boot</span>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> 源码</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> 演示</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-icon"><i class="fas fa-robot"></i></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>AI 聊天助手</h3>
+                        <p>集成大语言模型的智能对话应用，支持多轮对话、上下文理解和个性化回复。</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>FastAPI</span>
+                            <span>React</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> 源码</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> 演示</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-icon"><i class="fas fa-chart-line"></i></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>数据可视化平台</h3>
+                        <p>实时数据分析和可视化仪表板，支持多种图表类型和自定义数据源接入。</p>
+                        <div class="project-tags">
+                            <span>ECharts</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> 源码</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> 演示</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 博客区域 -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2 class="section-title">最新文章</h2>
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <div class="blog-date">2026-03-20</div>
+                    <h3>深入理解 JavaScript 异步编程</h3>
+                    <p>从回调函数到 Promise，再到 async/await，全面解析 JavaScript 异步编程的演进历程和最佳实践。</p>
+                    <a href="#" class="read-more">阅读更多 <i class="fas fa-arrow-right"></i></a>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-date">2026-03-15</div>
+                    <h3>Docker 容器化部署实战指南</h3>
+                    <p>手把手教你将应用容器化，从 Dockerfile 编写到 Docker Compose 编排，打造高效的部署流程。</p>
+                    <a href="#" class="read-more">阅读更多 <i class="fas fa-arrow-right"></i></a>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-date">2026-03-10</div>
+                    <h3>Vue 3 组合式 API 深度解析</h3>
+                    <p>探索 Vue 3 Composition API 的设计理念，通过实际案例学习如何构建可复用、可测试的组件逻辑。</p>
+                    <a href="#" class="read-more">阅读更多 <i class="fas fa-arrow-right"></i></a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系区域 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">联系我</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p>有项目想法或合作意向？欢迎随时联系我！</p>
+                    <div class="contact-links">
+                        <a href="mailto:hello@example.com" class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>hello@example.com</span>
+                        </a>
+                        <a href="#" class="contact-item">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="#" class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="#" class="contact-item">
+                            <i class="fab fa-twitter"></i>
+                            <span>Twitter</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Portfolio. 使用 ❤️ 构建</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
